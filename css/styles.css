@@ -29,9 +29,10 @@ button {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  color: var(--accent-color);
 }
 
 .heading {
@@ -39,6 +40,7 @@ button {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
   color: var(--navyblue-background-color);
 }
 
@@ -51,9 +53,6 @@ button {
   color: var(--navyblue-background-color);
 }
 
-.nav-logo-accent {
-  color: var(--accent-color);
-}
 .menu {
 }
 
@@ -74,6 +73,7 @@ button {
 }
 
 .page-address {
+  font-style: normal;
 }
 .address-list {
 }
@@ -84,7 +84,6 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  font-style: normal;
   color: var(--slate-text-color);
 }
 
@@ -102,9 +101,11 @@ button {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  text-align: center;
   color: var(--white);
 }
 .hero-button {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
